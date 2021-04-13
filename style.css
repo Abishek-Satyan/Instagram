@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.container-fluid{
+    height:100vh;
+    padding-top:60px;  
+}
+a{text-decoration: none;
+color: #777;}
+.left,.right{
+    position: relative;
+}
+.phone-img{
+    height:600px;
+    position:absolute;
+    right:20px;
+}
+
+
+.login-card{
+    background-color:#fff;
+    height: 400px;
+    width:400px;
+    position: relative;
+    border:1px solid rgba(94, 94, 94, 0.288);
+    text-align: center;
+    padding:5% 10%;
+}
+.login-card-title{
+    font-family: 'Lobster', cursive;
+    font-size:40px;
+    margin-bottom:30px;
+}
+.login-button{
+    padding:4px 102.5px;
+    border-style:none;
+    background-color:#38aaf7;;
+    color:#fff;
+    border-radius:5px;
+    margin-bottom:15px;
+}
+.line{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    
+}
+.left-line{
+    height:1px;
+    width:100px;
+    position: absolute;
+    top:12px;
+    left:0;
+    background-color:#777;
+}
+.right-line{
+    height:1px;
+    width:100px;
+    background-color:#777;
+    position: absolute;
+    top:12px;
+    right:0;
+}
+.fb-icon{
+    color:#4267B2;
+}
+.forgot-text{
+    font-size:14px;
+    margin-top:16px;
+}
+.signup-section{
+    margin-top:25px;
+    text-align: center;
+    width:400px;
+    height:70px;
+    padding-top:24px;
+    border:1px solid rgba(94, 94, 94, 0.288);
+}
+.signup-link a{
+    color:#4579e2 ;
+}
+.app-text{
+    position: relative;
+    left:167px;
+    font-size:14px;
+    margin-top:10px;
+}
+.app-download-links{
+    display: flex;
+    flex-direction: row;
+    width:400px;
+    justify-content: center;
+}
+.appstore-icon,.playstore-icon{
+    height:40px;
+    margin-left:10px;
+}
+.footer-section{
+    margin-top:50px;
+    text-align: center;
+    color:#777;
+    font-size:12px;
+    padding-top: 10px;
+    padding-bottom:40px;
+}
+.first-line,.second-line,.third-line{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    margin:5px;
+}
+.about,.blog,.jobs,.help,.api,.privacy,.terms,.top-accounts,.hashtags,.location{
+    margin-left:20px;
+}
+
+.beauty,.dance,.fitness,.food,.garden,.music,.visualarts{
+    margin-left:22px;
+}
+.language-selector{
+     border-style: none;
+     font-size: 12px;
+     position: relative;
+     right:40px;
+     color: #777;
+}
+.trademark{
+    position: absolute;
+    left:52%;
+}
+@media (max-width:1024px)
+{
+    .left{
+        display: none;
+    }
+    .about,.blog,.jobs,.help,.api,.privacy,.terms,.top-accounts,.hashtags,.location{
+        margin-left:5px;
+    }
+    .beauty,.dance,.fitness,.food,.garden,.music,.visualarts{
+        margin-left:2.60px;
+    }
+}
